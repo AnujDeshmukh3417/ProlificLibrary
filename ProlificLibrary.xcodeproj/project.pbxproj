@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D444C0AD1AED7D2700B07AEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D444C0AC1AED7D2700B07AEF /* main.m */; };
+		D444C0B01AED7D2700B07AEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D444C0AF1AED7D2700B07AEF /* AppDelegate.m */; };
+		D444C0B31AED7D2700B07AEF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D444C0B21AED7D2700B07AEF /* MasterViewController.m */; };
+		D444C0B61AED7D2700B07AEF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D444C0B51AED7D2700B07AEF /* DetailViewController.m */; };
+		D444C0B91AED7D2700B07AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D444C0B71AED7D2700B07AEF /* Main.storyboard */; };
+		D444C0BB1AED7D2700B07AEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D444C0BA1AED7D2700B07AEF /* Images.xcassets */; };
+		D444C0BE1AED7D2700B07AEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D444C0BC1AED7D2700B07AEF /* LaunchScreen.xib */; };
+		D444C0CA1AED7D2700B07AEF /* ProlificLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D444C0C91AED7D2700B07AEF /* ProlificLibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D444C0C41AED7D2700B07AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D444C09F1AED7D2700B07AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D444C0A61AED7D2700B07AEF;
+			remoteInfo = ProlificLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D444C0A71AED7D2700B07AEF /* ProlificLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProlificLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444C0AB1AED7D2700B07AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D444C0AC1AED7D2700B07AEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D444C0AE1AED7D2700B07AEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D444C0AF1AED7D2700B07AEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D444C0B11AED7D2700B07AEF /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D444C0B21AED7D2700B07AEF /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D444C0B41AED7D2700B07AEF /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D444C0B51AED7D2700B07AEF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D444C0B81AED7D2700B07AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D444C0BA1AED7D2700B07AEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D444C0BD1AED7D2700B07AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D444C0C31AED7D2700B07AEF /* ProlificLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProlificLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444C0C81AED7D2700B07AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D444C0C91AED7D2700B07AEF /* ProlificLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProlificLibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D444C0A41AED7D2700B07AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444C0C01AED7D2700B07AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D444C09E1AED7D2700B07AEF = {
+			isa = PBXGroup;
+			children = (
+				D444C0A91AED7D2700B07AEF /* ProlificLibrary */,
+				D444C0C61AED7D2700B07AEF /* ProlificLibraryTests */,
+				D444C0A81AED7D2700B07AEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D444C0A81AED7D2700B07AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D444C0A71AED7D2700B07AEF /* ProlificLibrary.app */,
+				D444C0C31AED7D2700B07AEF /* ProlificLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D444C0A91AED7D2700B07AEF /* ProlificLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				D444C0AE1AED7D2700B07AEF /* AppDelegate.h */,
+				D444C0AF1AED7D2700B07AEF /* AppDelegate.m */,
+				D444C0B11AED7D2700B07AEF /* MasterViewController.h */,
+				D444C0B21AED7D2700B07AEF /* MasterViewController.m */,
+				D444C0B41AED7D2700B07AEF /* DetailViewController.h */,
+				D444C0B51AED7D2700B07AEF /* DetailViewController.m */,
+				D444C0B71AED7D2700B07AEF /* Main.storyboard */,
+				D444C0BA1AED7D2700B07AEF /* Images.xcassets */,
+				D444C0BC1AED7D2700B07AEF /* LaunchScreen.xib */,
+				D444C0AA1AED7D2700B07AEF /* Supporting Files */,
+			);
+			path = ProlificLibrary;
+			sourceTree = "<group>";
+		};
+		D444C0AA1AED7D2700B07AEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D444C0AB1AED7D2700B07AEF /* Info.plist */,
+				D444C0AC1AED7D2700B07AEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D444C0C61AED7D2700B07AEF /* ProlificLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D444C0C91AED7D2700B07AEF /* ProlificLibraryTests.m */,
+				D444C0C71AED7D2700B07AEF /* Supporting Files */,
+			);
+			path = ProlificLibraryTests;
+			sourceTree = "<group>";
+		};
+		D444C0C71AED7D2700B07AEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D444C0C81AED7D2700B07AEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D444C0A61AED7D2700B07AEF /* ProlificLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D444C0CD1AED7D2700B07AEF /* Build configuration list for PBXNativeTarget "ProlificLibrary" */;
+			buildPhases = (
+				D444C0A31AED7D2700B07AEF /* Sources */,
+				D444C0A41AED7D2700B07AEF /* Frameworks */,
+				D444C0A51AED7D2700B07AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProlificLibrary;
+			productName = ProlificLibrary;
+			productReference = D444C0A71AED7D2700B07AEF /* ProlificLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D444C0C21AED7D2700B07AEF /* ProlificLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D444C0D01AED7D2700B07AEF /* Build configuration list for PBXNativeTarget "ProlificLibraryTests" */;
+			buildPhases = (
+				D444C0BF1AED7D2700B07AEF /* Sources */,
+				D444C0C01AED7D2700B07AEF /* Frameworks */,
+				D444C0C11AED7D2700B07AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D444C0C51AED7D2700B07AEF /* PBXTargetDependency */,
+			);
+			name = ProlificLibraryTests;
+			productName = ProlificLibraryTests;
+			productReference = D444C0C31AED7D2700B07AEF /* ProlificLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D444C09F1AED7D2700B07AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DESHMUKH;
+				TargetAttributes = {
+					D444C0A61AED7D2700B07AEF = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D444C0C21AED7D2700B07AEF = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D444C0A61AED7D2700B07AEF;
+					};
+				};
+			};
+			buildConfigurationList = D444C0A21AED7D2700B07AEF /* Build configuration list for PBXProject "ProlificLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D444C09E1AED7D2700B07AEF;
+			productRefGroup = D444C0A81AED7D2700B07AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D444C0A61AED7D2700B07AEF /* ProlificLibrary */,
+				D444C0C21AED7D2700B07AEF /* ProlificLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D444C0A51AED7D2700B07AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444C0B91AED7D2700B07AEF /* Main.storyboard in Resources */,
+				D444C0BE1AED7D2700B07AEF /* LaunchScreen.xib in Resources */,
+				D444C0BB1AED7D2700B07AEF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444C0C11AED7D2700B07AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D444C0A31AED7D2700B07AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444C0B01AED7D2700B07AEF /* AppDelegate.m in Sources */,
+				D444C0B31AED7D2700B07AEF /* MasterViewController.m in Sources */,
+				D444C0AD1AED7D2700B07AEF /* main.m in Sources */,
+				D444C0B61AED7D2700B07AEF /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444C0BF1AED7D2700B07AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444C0CA1AED7D2700B07AEF /* ProlificLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D444C0C51AED7D2700B07AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D444C0A61AED7D2700B07AEF /* ProlificLibrary */;
+			targetProxy = D444C0C41AED7D2700B07AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D444C0B71AED7D2700B07AEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D444C0B81AED7D2700B07AEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D444C0BC1AED7D2700B07AEF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D444C0BD1AED7D2700B07AEF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D444C0CB1AED7D2700B07AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D444C0CC1AED7D2700B07AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D444C0CE1AED7D2700B07AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProlificLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D444C0CF1AED7D2700B07AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProlificLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D444C0D11AED7D2700B07AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProlificLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProlificLibrary.app/ProlificLibrary";
+			};
+			name = Debug;
+		};
+		D444C0D21AED7D2700B07AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProlificLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProlificLibrary.app/ProlificLibrary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D444C0A21AED7D2700B07AEF /* Build configuration list for PBXProject "ProlificLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444C0CB1AED7D2700B07AEF /* Debug */,
+				D444C0CC1AED7D2700B07AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D444C0CD1AED7D2700B07AEF /* Build configuration list for PBXNativeTarget "ProlificLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444C0CE1AED7D2700B07AEF /* Debug */,
+				D444C0CF1AED7D2700B07AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D444C0D01AED7D2700B07AEF /* Build configuration list for PBXNativeTarget "ProlificLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444C0D11AED7D2700B07AEF /* Debug */,
+				D444C0D21AED7D2700B07AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D444C09F1AED7D2700B07AEF /* Project object */;
+}
