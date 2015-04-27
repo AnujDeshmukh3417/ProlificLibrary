@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D444C0A61AED7D2700B07AEF"
+               BlueprintIdentifier = "D4DFFF6D1AEC08390018DD43"
                BuildableName = "ProlificLibrary.app"
                BlueprintName = "ProlificLibrary"
                ReferencedContainer = "container:ProlificLibrary.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D444C0C21AED7D2700B07AEF"
+               BlueprintIdentifier = "D4DFFF891AEC083A0018DD43"
                BuildableName = "ProlificLibraryTests.xctest"
                BlueprintName = "ProlificLibraryTests"
                ReferencedContainer = "container:ProlificLibrary.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D444C0C21AED7D2700B07AEF"
+               BlueprintIdentifier = "D4DFFF891AEC083A0018DD43"
                BuildableName = "ProlificLibraryTests.xctest"
                BlueprintName = "ProlificLibraryTests"
                ReferencedContainer = "container:ProlificLibrary.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D444C0A61AED7D2700B07AEF"
+            BlueprintIdentifier = "D4DFFF6D1AEC08390018DD43"
             BuildableName = "ProlificLibrary.app"
             BlueprintName = "ProlificLibrary"
             ReferencedContainer = "container:ProlificLibrary.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D444C0A61AED7D2700B07AEF"
+            BlueprintIdentifier = "D4DFFF6D1AEC08390018DD43"
             BuildableName = "ProlificLibrary.app"
             BlueprintName = "ProlificLibrary"
             ReferencedContainer = "container:ProlificLibrary.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D444C0A61AED7D2700B07AEF"
+            BlueprintIdentifier = "D4DFFF6D1AEC08390018DD43"
             BuildableName = "ProlificLibrary.app"
             BlueprintName = "ProlificLibrary"
             ReferencedContainer = "container:ProlificLibrary.xcodeproj">

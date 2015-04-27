@@ -2,12 +2,13 @@
 //  AppDelegate.m
 //  ProlificLibrary
 //
-//  Created by ANUJ DESHMUKH on 4/26/15.
+//  Created by ANUJ DESHMUKH on 4/25/15.
 //  Copyright (c) 2015 DESHMUKH. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import "ProlificBooksHTTPClient.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   // [[ProlificBooksHTTPClient sharedProlificBooksHTTPClient]deleteRequest:nil];
+    [[ProlificBooksHTTPClient sharedProlificBooksHTTPClient]addBookData:nil];
     return YES;
 }
 

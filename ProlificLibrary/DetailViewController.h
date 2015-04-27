@@ -2,16 +2,20 @@
 //  DetailViewController.h
 //  ProlificLibrary
 //
-//  Created by ANUJ DESHMUKH on 4/26/15.
+//  Created by ANUJ DESHMUKH on 4/25/15.
 //  Copyright (c) 2015 DESHMUKH. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "Book.h"
+#import "ProlificBooksHTTPClient.h"
+@interface DetailViewController : UIViewController<LibraryBookHTTPClientDetailDelegate,UIAlertViewDelegate> {
+  
+}
 
-@interface DetailViewController : UIViewController
+@property (strong, nonatomic) NSString *urlBookParam;
 
-@property (strong, nonatomic) id detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
-
+-(void)setUrlBookParam:(NSString *)urlBookParam;
 @end
 
